@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f2f2f2;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    background: #fff;;
+    align-items: center;
+    padding: 0 5vw;
+}
+nav >img{
+    width: 5vw;
+    height: 6vh;
+}
+
+nav>ol > li{
+    list-style: none;
+    display: inline;
+    margin: 0 1vw;
+}
+
+nav>ol>li{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    color: cadetblue;
+}
+nav>ol>li:hover{
+    color: red;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+}
+#content{
+    display: flex;
+    height: 100vh;
+    margin: 5vw;
+    background: #fff;
+}
+
+body>div>img{
+    flex: 1;
+    height: 100vh;
+}
+body>div>form{
+    flex: 1;
+    height: 100vh;
+}
+form{
+    margin: 0 4vw;
+    display: block;
+}
+form>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4vw;
+}
+div>form>label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5vh;
+}
+div>form>input{
+    display: block;
+    width: 30vw;
+    background: #f2f2f2;
+    padding: 5%;
+    border: none;
+    margin-bottom: 5vh;
+    border-radius: none;
+}
+.remembar{
+    display: flex;
+}
+#checkbox{
+    margin: 0vw 1vw;
+    color: red;
+}
+.remembar>label{
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    background: #ff5454;
+    display: block;
+    width: 33.5vw;
+    padding: 5%;
+    height: 10vh;
+    border: none;
+    margin-bottom: 5vh;
+    border-radius: none;
+    margin-top: 5vh;
+}
+button:hover{
+    background: red;
+    display: block;
+    width: 33.5vw;
+    padding: 5%;
+    height: 10vh;
+
+    border: none;
+    margin-bottom: 5vh;
+    border-radius: none;
+    margin-top: 5vh;
+}
+
+#forget{
+    display: flex;
+    justify-content: space-between;
+}
+#forget>p{
+    color: #ff5454;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#forget>p:hover{
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5%;
+}
+footer{
+    background: black;
+    color: #fff;
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
